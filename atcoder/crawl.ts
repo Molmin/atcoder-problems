@@ -38,12 +38,12 @@ async function main() {
             done++
             continue
         }
-        await sleep(300)
+        // await sleep(100)
         console.log(`Process: ${done + 1} / ${contests.length}`)
         const problems = (await atcoder.getContestProblems(contestId)).map((x) => x.toLowerCase())
         for (const problemId of problems) {
             if (testdataDict[problemId]) continue
-            await sleep(100)
+            // await sleep(100)
             const submissions = await atcoder.getSubmissions(contestId, problemId)
             if (submissions.length === 0) throw new Error(`How difficult the problem ${problemId} is!`)
             const filenames = await atcoder.getTestdataFilenames(contestId, submissions[0])
