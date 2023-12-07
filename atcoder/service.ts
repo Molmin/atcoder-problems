@@ -94,7 +94,7 @@ export default class AtCoder {
         const { text } = await this.get(`/contests/${contestId}/submissions/${submissionId}`)
         const { window: { document } } = new JSDOM(text)
         const table = document.querySelector('div.panel.panel-default > table.table.table-bordered.table-striped.th-center') as Element
-        const filenames = table.querySelector('tbody > tr:nth-child(2) > td:nth-child(2)')?.textContent as string
+        const filenames = table.querySelector('tbody > tr:last-child > td:nth-child(2)')?.textContent as string
         return filenames.split(', ')
     }
 }
