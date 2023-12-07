@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from "node:fs"
+import { existsSync, readFileSync, writeFileSync } from "node:fs"
 import AtCoder from "./service"
 import { ensureDirSync } from "fs-extra"
 
@@ -11,6 +11,10 @@ let testdataDict: Record<string, string> = {}
 let contestDict: Record<string, string[]> = {}
 
 ensureDirSync('data')
+if (existsSync('data/contest.json'))
+    contestDict = JSON.parse(readFileSync('data/contest.json').toString())
+if (existsSync('data/dict.json'))
+    testdataDict = JSON.parse(readFileSync('data/dict.json').toString())
 
 async function main() {
     if (await atcoder.login(secret.username, secret.password))
@@ -25,24 +29,26 @@ async function main() {
         contests = contests.concat(result)
     }
     contests = Array.from(new Set(contests))
-    contests = contests.sort((x, y) => x < y ? -1 : 1)
+    contests = contests.map((x) => x.toLowerCase()).sort((x, y) => x < y ? -1 : 1)
     console.log(`Total ${contests.length} contests found`)
 
     let done = 0
     for (const contestId of contests) {
+        if (contestDict[contestId]) continue
         await sleep(500)
         console.log(`Process: ${done + 1} / ${contests.length}`)
-        const problems = await atcoder.getContestProblems(contestId)
-        contestDict[contestId] = problems
-        writeFileSync('data/contest.json', JSON.stringify(contestDict, null, '  '))
+        const problems = (await atcoder.getContestProblems(contestId)).map((x) => x.toLowerCase())
         for (const problemId of problems) {
+            if (testdataDict[problemId]) continue
             await sleep(500)
             const submissions = await atcoder.getSubmissions(contestId, problemId)
             if (submissions.length === 0) throw new Error(`How difficult the problem ${problemId} is!`)
             const filenames = await atcoder.getTestdataFilenames(contestId, submissions[0])
-            testdataDict[problemId] = filenames.join(',')
+            testdataDict[problemId] = filenames.sort((x, y) => x < y ? -1 : 1).join(',')
             writeFileSync('data/dict.json', JSON.stringify(testdataDict, null, '  '))
         }
+        contestDict[contestId] = problems
+        writeFileSync('data/contest.json', JSON.stringify(contestDict, null, '  '))
         done++
     }
 }
