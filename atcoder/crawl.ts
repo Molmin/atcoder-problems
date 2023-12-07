@@ -34,8 +34,11 @@ async function main() {
 
     let done = 0
     for (const contestId of contests) {
-        if (contestDict[contestId]) continue
-        await sleep(500)
+        if (contestDict[contestId]) {
+            done++
+            continue
+        }
+        await sleep(1000)
         console.log(`Process: ${done + 1} / ${contests.length}`)
         const problems = (await atcoder.getContestProblems(contestId)).map((x) => x.toLowerCase())
         for (const problemId of problems) {
