@@ -27,4 +27,4 @@ function solve(filenames: string[]): any {
 }
 
 const result = solve(filenames)
-writeFileSync('data/result.json', JSON.stringify(result))
+writeFileSync('data/tree.json', JSON.stringify(result))
