@@ -17,7 +17,8 @@
         "yamljs": "^0.3.0"
     },
     "scripts": {
-        "crawl": "npx ts-node atcoder/crawl.ts",
+        "crawl:atcoder": "npx ts-node atcoder/crawl.ts",
+        "tree:parse": "npx ts-node tree-parser.ts",
         "merge": "npx ts-node merge.ts"
     },
     "author": "Milmon <milmon@qq.com>",

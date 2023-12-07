@@ -16,7 +16,7 @@ export default class AtCoder {
     get(url: string) {
         if (process.env.DEBUG) console.debug(`GET ${url}`)
         return this.agent.get(this.endpoint + url)
-            .set('User-Agent', UA)
+            .set('User-Agent', UA).retry(60)
     }
     post(url: string) {
         if (process.env.DEBUG) console.debug(`POST ${url}`)
