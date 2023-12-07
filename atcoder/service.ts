@@ -1,6 +1,5 @@
 import superagent from 'superagent'
 import { JSDOM } from 'jsdom'
-import crypto from 'node:crypto'
 
 const UA = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
@@ -9,33 +8,29 @@ const UA = [
 ].join(' ')
 
 export default class AtCoder {
-    public cookie = ''
+    public agent = superagent.agent()
     constructor(
         public endpoint = 'https://atcoder.jp',
     ) { }
 
     get(url: string) {
-        console.debug(`GET ${url}`)
-        return superagent.get(this.endpoint + url)
-            .set('Cookie', this.cookie)
+        if (process.env.DEBUG) console.debug(`GET ${url}`)
+        return this.agent.get(this.endpoint + url)
             .set('User-Agent', UA)
     }
     post(url: string) {
-        console.debug(`POST ${url}`)
-        return superagent.post(this.endpoint + url)
-            .set('Cookie', this.cookie)
+        if (process.env.DEBUG) console.debug(`POST ${url}`)
+        return this.agent.post(this.endpoint + url)
             .set('User-Agent', UA)
     }
 
     async isLoggedIn() {
         const response = await this.get('/settings')
-        console.log(response.redirect, response.redirects)
+        return response.redirects.length === 0
     }
 
     async getCsrfToken() {
-        const response = await this.get('/')
-        this.cookie = response.headers['set-cookie']
-        console.log('Updated cookie:', this.cookie)
+        const response = await this.get('/login')
         const { window: { document } } = new JSDOM(response.text)
         for (const node of document.querySelectorAll('script')) {
             const tmp = node.innerHTML.split('var csrfToken = "')
@@ -46,13 +41,11 @@ export default class AtCoder {
 
     async login(username: string, password: string) {
         const csrf_token = await this.getCsrfToken()
+        console.log('Csrf token:', csrf_token)
         try {
             const response = await this.post('/login')
                 .type('form')
                 .send({ username, password, csrf_token })
-            this.cookie = response.headers['set-cookie']
-            console.log('Updated cookie:', this.cookie)
-            console.log(response.redirect, response.redirects)
         }
         catch (e) { }
         return await this.isLoggedIn()
@@ -89,11 +82,19 @@ export default class AtCoder {
                 'f.Status': 'AC',
             })
         const { window: { document } } = new JSDOM(text)
-        console.log(text)
-        // const tasks: string[] = []
-        // for (const node of document.querySelectorAll('.table-responsive > table > tbody > tr')) {
-        //     tasks.push((node.querySelector('a')?.getAttribute('href') as string).split('/')[4])
-        // }
-        // return tasks
+        const submissions: string[] = []
+        for (const node of document.querySelectorAll('.table-responsive > table > tbody > tr')) {
+            submissions.push((node.querySelector('td:nth-child(10) > a')?.getAttribute('href') as string).split('/')[4])
+        }
+        return submissions
+    }
+
+    async getTestdataFilenames(contestId: string, submissionId: string) {
+        console.log(`Getting submission ${submissionId}`)
+        const { text } = await this.get(`/contests/${contestId}/submissions/${submissionId}`)
+        const { window: { document } } = new JSDOM(text)
+        const table = document.querySelector('div.panel.panel-default > table.table.table-bordered.table-striped.th-center') as Element
+        const filenames = table.querySelector('tbody > tr:nth-child(2) > td:nth-child(2)')?.textContent as string
+        return filenames.split(', ')
     }
 }
