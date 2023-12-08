@@ -1,4 +1,5 @@
 import { readFileSync, writeFileSync } from "node:fs"
+import Manuals from "./data/manuals"
 
 let result: Record<string, string | null> = {}
 
@@ -82,6 +83,9 @@ for (const [id, contestIds] of Object.entries(data_contest_dict)) {
     }
     else mergeContest(real_contestIds[0], contestIds[0])
 }
+
+for (const manual of Manuals)
+    mergeProblem(manual[1], manual[0])
 
 let data_problem_dict: Record<string, string[]> = {}
 let real_problem_dict: Record<string, string[]> = {}
