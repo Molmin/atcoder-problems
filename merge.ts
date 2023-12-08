@@ -61,6 +61,10 @@ for (const [id, contestIds] of Object.entries(data_contest_dict)) {
     }
     else {
         console.log(`Merged contest ${contestIds[0]} and ${real_contestIds[0]}`)
+        const real_problemIds = real_contests[real_contestIds[0]]
+        const data_problemIds = data_contests[contestIds[0]]
+        for (let i = 0; i < real_problemIds.length; i++)
+            result[real_problemIds[i]] = data_problemIds[i]
     }
 }
 
