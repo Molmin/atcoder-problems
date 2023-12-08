@@ -16,6 +16,7 @@ jobs:
     - name: Run
       run: |
         npm install
+        npm install ts-node -g
         npm run tree:parse
         mkdir dist
         npm run merge > dist/run.log
