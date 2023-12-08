@@ -111,11 +111,6 @@ for (const [id, data_problemIds] of Object.entries(data_problem_dict)) {
     const real_problemIds = real_problem_dict[id] || []
     if (real_problemIds.length === 0) continue
     if (data_problemIds.length >= 2 || real_problemIds.length >= 2) {
-        // if (data_problemIds.join(',') === 'WTF19' || contestIds.join(',') === 'CodeFestival2016GrandFinal') {
-        //     mergeContest(real_contestIds[0], contestIds[0])
-        //     mergeContest(real_contestIds[1], contestIds[0])
-        //     continue
-        // }
         console.log(`!!!!! Please check problem ${data_problemIds.join(', ')} and problem ids ${real_problemIds.join(', ')} manually`)
     }
     else mergeProblem(real_problemIds[0], data_problemIds[0])
@@ -123,6 +118,10 @@ for (const [id, data_problemIds] of Object.entries(data_problem_dict)) {
 
 for (const [problemId] of Object.entries(real_problems)) {
     if (!result[problemId]) result[problemId] = null
+}
+const merged_dir = Object.entries(result).map(x => x[1])
+for (const [dir] of Object.entries(data_problems)) {
+    if (!merged_dir.includes(dir)) console.log(`!!!!! Dir ${dir} not merged`)
 }
 
 writeFileSync('data/result.json', JSON.stringify(
