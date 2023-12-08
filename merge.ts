@@ -53,19 +53,26 @@ for (const [contestId, problems] of Object.entries(real_contests)) {
 
 let result: Record<string, string> = {}
 
+function mergeContest(real_id: string, data_id: string) {
+    console.log(`Merged contest ${data_id} and ${real_id}`)
+    const real_problemIds = real_contests[real_id]
+    const data_problemIds = data_contests[data_id]
+    for (let i = 0; i < real_problemIds.length; i++)
+        result[real_problemIds[i]] = data_problemIds[i]
+}
+
 for (const [id, contestIds] of Object.entries(data_contest_dict)) {
     const real_contestIds = real_contest_dict[id] || []
     if (real_contestIds.length === 0) continue
     if (contestIds.length >= 2 || real_contestIds.length >= 2) {
+        if (contestIds.join(',') === 'WTF19' || contestIds.join(',') === 'CodeFestival2016GrandFinal') {
+            mergeContest(real_contestIds[0], contestIds[0])
+            mergeContest(real_contestIds[1], contestIds[0])
+            continue
+        }
         console.log(`!!!!! Please check contest ${contestIds.join(', ')} and contest ids ${real_contestIds.join(', ')} manually`)
     }
-    else {
-        console.log(`Merged contest ${contestIds[0]} and ${real_contestIds[0]}`)
-        const real_problemIds = real_contests[real_contestIds[0]]
-        const data_problemIds = data_contests[contestIds[0]]
-        for (let i = 0; i < real_problemIds.length; i++)
-            result[real_problemIds[i]] = data_problemIds[i]
-    }
+    else mergeContest(real_contestIds[0], contestIds[0])
 }
 
 writeFileSync('data/result.json', JSON.stringify(result, null, '  '))
