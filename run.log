@@ -188,13 +188,47 @@ Merged contest ZONe2021 and zone2021
 Merged problem 2019exa/A and exawizards2019_a
 Merged problem 2019exa/C and exawizards2019_c
 Merged problem 2019exa/E and exawizards2019_e
+Merged problem ARC083/A and abc074_a
+Merged problem ARC083/B and abc074_b
+Merged problem ARC081/A and abc071_a
+Merged problem ARC081/B and abc071_b
+Merged problem ARC081/C and arc081_a
+Merged problem ARC081/D and arc081_b
+Merged problem ARC081/E and arc081_c
+Merged problem ARC081/F and arc081_d
 Merged problem ARC103/A and abc111_a
 Merged problem ARC103/B and abc111_b
 Merged problem ARC103/C and arc103_a
 Merged problem ARC103/D and arc103_b
 Merged problem ARC103/E and arc103_c
 Merged problem ARC103/F and arc103_d
+Merged problem ABC112/A and abc112_a
+Merged problem ABC126/A and abc126_a
+Merged problem ABC126/C and abc126_c
+Merged problem ABC127/A and abc127_a
+Merged problem ABC127/E and abc127_e
+Merged problem ABC150/E and abc150_e
+Merged problem ABC127/B and abc127_b
+Merged problem ABC128/B and abc128_b
+Merged problem ABC128/C and abc128_c
+Merged problem ABC128/F and abc128_f
+Merged problem ABC129/A and abc129_a
+Merged problem ABC129/B and abc129_b
+Merged problem ABC129/C and abc129_c
+Merged problem ABC130/A and abc130_a
+Merged problem ABC131/B and abc131_b
+Merged problem ABC131/C and abc131_c
+Merged problem ABC132/A and abc132_a
+Merged problem ABC134/A and abc134_a
+Merged problem ABC134/C and abc134_c
+Merged problem ABC136/F and abc136_f
+Merged problem ABC138/F and abc138_f
+Merged problem ABC139/E and abc139_e
 Merged problem ABC153/D and abc153_d
+Merged problem ABC136/B and abc136_b
+Merged problem ABC137/B and abc137_b
+Merged problem ABC137/C and abc137_c
+Merged problem ABC138/C and abc138_c
 Merged problem ABC170/B and abc170_b
 Merged problem ABC170/C and abc170_c
 Merged problem ABC171/A and abc171_a
@@ -206,9 +240,12 @@ Merged problem ABC192/C and abc192_c
 Merged problem abc216/H and abc216_h
 Merged problem abc234/F and abc234_f
 Merged problem abc234/G and abc234_g
+Merged problem abc242/C and abc242_c
 Merged problem ABC247/A and abc247_a
 Merged problem ABC274/G and abc274_g
+Merged problem ARC075/B and arc075_b
 Merged problem ARC096/C and arc096_c
+Merged problem ARC097/B and arc097_b
 Merged problem ARC152/A and arc152_a
 Merged problem AGC002/B and agc002_b
 Merged problem AGC007/A and agc007_a
@@ -216,6 +253,7 @@ Merged problem AGC007/B and agc007_b
 Merged problem AGC007/C and agc007_c
 Merged problem AGC009/B and agc009_b
 Merged problem AGC012/A and agc012_a
+Merged problem AGC021/A and agc021_a
 Merged problem AGC021/B and agc021_b
 Merged problem AGC022/B and agc022_b
 Merged problem AGC022/F and agc022_f
@@ -226,6 +264,36 @@ Merged problem AGC030/D and agc030_d
 Merged problem AGC030/E and agc030_e
 Merged problem AGC031/B and agc031_b
 Merged problem AGC031/F and agc031_f
+Merged problem ARC059_ABC043/A and abc043_a
+Merged problem ARC059_ABC043/C and arc059_a
+Merged problem ARC061/C and arc061_a
+Merged problem ARC064/D and arc064_b
+Merged problem ARC064/E and arc064_c
+Merged problem ARC065/F and arc065_d
+Merged problem ARC068/E and arc068_c
+Merged problem ARC069/A and abc055_a
+Merged problem ARC069/C and arc069_a
+Merged problem ARC069/E and arc069_c
+Merged problem ARC072/D and arc072_b
+Merged problem ARC074/B and abc062_b
+Merged problem ARC075/A and abc063_a
+Merged problem ARC075/D and abc063_b
+Merged problem ARC075/F and arc075_d
+Merged problem ARC076/A and abc065_a
+Merged problem ARC076/B and abc065_b
+Merged problem ARC078/A and abc067_a
+Merged problem ARC080/B and abc069_b
+Merged problem ARC080/E and arc080_c
+Merged problem ARC082/C and arc082_a
+Merged problem ARC082/E and arc082_c
+Merged problem ARC084/E and arc084_c
+Merged problem ARC086/B and abc081_b
+Merged problem ARC086/C and arc084_a
+Merged problem ARC087/A and abc082_a
+Merged problem ARC088/B and abc083_b
+Merged problem ARC089/B and abc086_b
+Merged problem ARC091/B and abc090_b
+Merged problem ARC096/B and abc095_b
 Merged problem 2019exa/B and exawizards2019_b
 Merged problem 2019exa/D and exawizards2019_d
 Merged problem 2020_hitachi/A and hitachi2020_a
@@ -233,46 +301,30 @@ Merged problem 2020_hitachi/B and hitachi2020_b
 Merged problem 2020_hitachi/D and hitachi2020_d
 Merged problem 2020_hitachi/F and hitachi2020_f
 Merged problem ABC110/C and abc110_c
-!!!!! Please check problem ABC112/A and problem ids abc064_a, abc112_a manually
 Merged problem ABC112/C and abc112_c
-!!!!! Please check problem ABC126/A, ABC126/C, ABC127/B, ABC128/B and problem ids abc126_a, abc126_c, abc127_b, abc128_b manually
 Merged problem ABC126/B and abc126_b
-!!!!! Please check problem ABC127/A, ABC148/B and problem ids abc127_a, abc148_b manually
-!!!!! Please check problem ABC127/E, ABC150/E, ARC076/B, tenka1_2019/C and problem ids abc065_b, abc127_e, abc150_e, tenka1_2019_c manually
-!!!!! Please check problem ABC128/C, ARC088/D and problem ids arc088_b, abc128_c manually
-!!!!! Please check problem ABC128/F, ARC088/F and problem ids abc128_f, arc088_d manually
-!!!!! Please check problem ABC129/A, ABC130/C and problem ids abc129_a, abc130_c manually
-!!!!! Please check problem ABC129/B, ARC084/B and problem ids abc077_b, abc129_b manually
-!!!!! Please check problem ABC129/C, past202004-open/D and problem ids abc129_c manually
 Merged problem ABC129/D and abc129_d
 Merged problem ABC129/F and abc129_f
-!!!!! Please check problem ABC130/A, ABC134/A, ARC084/A and problem ids abc077_a, abc130_a, abc134_a manually
 Merged problem ABC130/B and abc130_b
+Merged problem ABC130/C and abc130_c
 Merged problem ABC130/D and abc130_d
 Merged problem ABC130/E and abc130_e
 Merged problem ABC131/A and abc131_a
-!!!!! Please check problem ABC131/B, AGC021/A, ARC088/C and problem ids arc088_a, abc131_b, agc021_a manually
-!!!!! Please check problem ABC131/C, ARC091/D and problem ids arc091_b, abc131_c manually
 Merged problem ABC131/D and abc131_d
 Merged problem ABC131/F and abc131_f
-!!!!! Please check problem ABC132/A, ARC094/A and problem ids abc093_a, abc132_a manually
 Merged problem ABC132/C and abc132_c
 Merged problem ABC132/D and abc132_d
 Merged problem ABC132/F and abc132_f
 Merged problem ABC133/E and abc133_e
 Merged problem ABC133/F and abc133_f
-!!!!! Please check problem ABC134/C, ABC171/B and problem ids abc134_c, abc171_b manually
 Merged problem ABC135/D and abc135_d
 Merged problem ABC135/E and abc135_e
 Merged problem ABC135/F and abc135_f
-!!!!! Please check problem ABC136/B, ABC137/B, ABC137/C, ABC138/C, ARC075/B, ARC075/D, ARC096/B and problem ids abc063_b, arc075_b, abc085_b, abc095_b, abc136_b, abc137_b, abc137_c, abc138_c manually
 Merged problem ABC136/E and abc136_e
-!!!!! Please check problem ABC136/F, past202004-open/C and problem ids abc136_f manually
 Merged problem ABC137/F and abc137_f
 Merged problem ABC138/A and abc138_a
 Merged problem ABC138/B and abc138_b
 Merged problem ABC138/E and abc138_e
-!!!!! Please check problem ABC138/F, ABC139/E, ARC075/E and problem ids abc138_f, abc139_e, arc075_c manually
 Merged problem ABC139/F and abc139_f
 Merged problem ABC140/A and abc140_a
 Merged problem ABC140/C and abc140_c
@@ -292,6 +344,7 @@ Merged problem ABC143/C and abc143_c
 Merged problem ABC143/D and abc143_d
 Merged problem ABC143/F and abc143_f
 Merged problem ABC148/A and abc148_a
+Merged problem ABC148/B and abc148_b
 Merged problem ABC148/E and abc148_e
 Merged problem ABC148/F and abc148_f
 Merged problem ABC150/A and abc150_a
@@ -323,6 +376,7 @@ Merged problem ABC169/F and abc169_f
 Merged problem ABC170/D and abc170_d
 Merged problem ABC170/E and abc170_e
 Merged problem ABC170/F and abc170_f
+Merged problem ABC171/B and abc171_b
 Merged problem ABC171/C and abc171_c
 Merged problem ABC171/D and abc171_d
 Merged problem ABC171/F and abc171_f
@@ -444,9 +498,7 @@ Merged problem ARC058_ABC042/A and abc042_a
 Merged problem ARC058_ABC042/B and abc042_b
 Merged problem ARC058_ABC042/E and arc058_c
 Merged problem ARC058_ABC042/F and arc058_d
-!!!!! Please check problem ARC059_ABC043/A, ARC082/A and problem ids abc043_a, abc072_a manually
 Merged problem ARC059_ABC043/B and abc043_b
-!!!!! Please check problem ARC059_ABC043/C, ARC082/D and problem ids arc059_a, arc082_b manually
 Merged problem ARC059_ABC043/E and arc059_c
 Merged problem ARC059_ABC043/F and arc059_d
 Merged problem ARC060/A and abc044_a
@@ -455,7 +507,7 @@ Merged problem ARC060/D and arc060_b
 Merged problem ARC060/E and arc060_c
 Merged problem ARC060/F and arc060_d
 Merged problem ARC061/A and abc045_a
-!!!!! Please check problem ARC061/B, ARC061/C and problem ids abc045_b, arc061_a manually
+Merged problem ARC061/B and abc045_b
 Merged problem ARC061/F and arc061_d
 Merged problem ARC062/A and abc046_a
 Merged problem ARC062/B and abc046_b
@@ -463,7 +515,7 @@ Merged problem ARC062/C and arc062_a
 Merged problem ARC062/D and arc062_b
 Merged problem ARC062/E and arc062_c
 Merged problem ARC062/F and arc062_d
-!!!!! Please check problem ARC063/A, abc242/C and problem ids abc047_a, abc242_c manually
+Merged problem ARC063/A and abc047_a
 Merged problem ARC063/B and abc047_b
 Merged problem ARC063/C and arc063_a
 Merged problem ARC063/D and arc063_b
@@ -472,12 +524,10 @@ Merged problem ARC063/F and arc063_d
 Merged problem ARC064/A and abc048_a
 Merged problem ARC064/B and abc048_b
 Merged problem ARC064/C and arc064_a
-!!!!! Please check problem ARC064/D, ARC064/E and problem ids arc064_b, arc064_c manually
 Merged problem ARC064/F and arc064_d
 Merged problem ARC065/A and abc049_a
 Merged problem ARC065/B and abc049_b
 Merged problem ARC065/C and arc065_a
-!!!!! Please check problem ARC065/D, ARC065/F and problem ids arc065_d manually
 Merged problem ARC065/E and arc065_c
 Merged problem ARC066/A and abc050_a
 Merged problem ARC066/B and abc050_b
@@ -495,11 +545,8 @@ Merged problem ARC068/A and abc053_a
 Merged problem ARC068/B and abc053_b
 Merged problem ARC068/C and arc068_a
 Merged problem ARC068/D and arc068_b
-!!!!! Please check problem ARC068/E, ARC069/E and problem ids arc068_c, arc069_c manually
 Merged problem ARC068/F and arc068_d
-!!!!! Please check problem ARC069/A, ARC086/A and problem ids abc055_a, abc081_a manually
 Merged problem ARC069/B and abc055_b
-!!!!! Please check problem ARC069/C and problem ids arc069_a, abc067_a manually
 Merged problem ARC069/D and arc069_b
 Merged problem ARC069/F and arc069_d
 Merged problem ARC070/A and abc056_a
@@ -516,7 +563,6 @@ Merged problem ARC071/F and arc071_d
 Merged problem ARC072/A and abc059_a
 Merged problem ARC072/B and abc059_b
 Merged problem ARC072/C and arc072_a
-!!!!! Please check problem ARC072/D, ARC072/E and problem ids arc072_b manually
 Merged problem ARC072/F and arc072_d
 Merged problem ARC073/A and abc060_a
 Merged problem ARC073/B and abc060_b
@@ -525,14 +571,11 @@ Merged problem ARC073/D and arc073_b
 Merged problem ARC073/E and arc073_c
 Merged problem ARC073/F and arc073_d
 Merged problem ARC074/A and abc062_a
-!!!!! Please check problem ARC074/B, ARC080/A and problem ids abc062_b, abc069_a manually
 Merged problem ARC074/C and arc074_a
 Merged problem ARC074/E and arc074_c
 Merged problem ARC074/F and arc074_d
-!!!!! Please check problem ARC075/A and problem ids abc063_a, abc085_a manually
 Merged problem ARC075/C and arc075_a
-!!!!! Please check problem ARC075/F, ARC096/F and problem ids arc075_d, arc096_d manually
-!!!!! Please check problem ARC076/A, tenka1_2019/B and problem ids abc065_a, tenka1_2019_b manually
+Merged problem ARC075/E and arc075_c
 Merged problem ARC076/C and arc076_a
 Merged problem ARC076/D and arc076_b
 Merged problem ARC076/F and arc076_d
@@ -553,23 +596,21 @@ Merged problem ARC079/C and arc079_a
 Merged problem ARC079/D and arc079_b
 Merged problem ARC079/E and arc079_c
 Merged problem ARC079/F and arc079_d
-!!!!! Please check problem ARC080/B, tessoku-book/B16 and problem ids abc069_b manually
+Merged problem ARC080/A and abc069_a
 Merged problem ARC080/C and arc080_a
 Merged problem ARC080/D and arc080_b
-!!!!! Please check problem ARC080/E and problem ids agc007_d, arc080_c manually
 Merged problem ARC080/F and arc080_d
+Merged problem ARC082/A and abc072_a
 Merged problem ARC082/B and abc072_b
-!!!!! Please check problem ARC082/C, ARC089/B, ARC097/B and problem ids arc082_a, abc086_b, abc097_b manually
-!!!!! Please check problem ARC082/E, ARC097/E and problem ids arc082_c, arc097_c manually
+Merged problem ARC082/D and arc082_b
 Merged problem ARC082/F and arc082_d
-!!!!! Please check problem ARC083/A, ARC083/B and problem ids abc074_a, abc074_b manually
 Merged problem ARC083/C and arc083_a
 Merged problem ARC083/D and arc083_b
 Merged problem ARC083/E and arc083_c
 Merged problem ARC083/F and arc083_d
-Merged problem ARC084/C and arc084_a
+Merged problem ARC084/A and abc077_a
+Merged problem ARC084/B and abc077_b
 Merged problem ARC084/D and arc084_b
-!!!!! Please check problem ARC084/E, past202004-open/M and problem ids arc084_c manually
 Merged problem ARC084/F and arc084_d
 Merged problem ARC085/A and abc078_a
 Merged problem ARC085/B and abc078_b
@@ -577,17 +618,19 @@ Merged problem ARC085/C and arc085_a
 Merged problem ARC085/D and arc085_b
 Merged problem ARC085/E and arc085_c
 Merged problem ARC085/F and arc085_d
+Merged problem ARC086/A and abc081_a
 Merged problem ARC086/D and arc086_b
 Merged problem ARC086/E and arc086_c
-!!!!! Please check problem ARC087/A and problem ids abc082_a, agc002_a manually
 Merged problem ARC087/B and abc082_b
 Merged problem ARC087/C and arc087_a
 Merged problem ARC087/D and arc087_b
 Merged problem ARC087/E and arc087_c
 Merged problem ARC087/F and arc087_d
 Merged problem ARC088/A and abc083_a
-!!!!! Please check problem ARC088/B, ARC102/B, tenka1_2018/B and problem ids abc083_b, tenka1_2018_b manually
+Merged problem ARC088/C and arc088_a
+Merged problem ARC088/D and arc088_b
 Merged problem ARC088/E and arc088_c
+Merged problem ARC088/F and arc088_d
 Merged problem ARC089/A and abc086_a
 Merged problem ARC089/C and arc089_a
 Merged problem ARC089/D and arc089_b
@@ -599,8 +642,8 @@ Merged problem ARC090/D and arc090_b
 Merged problem ARC090/E and arc090_c
 Merged problem ARC090/F and arc090_d
 Merged problem ARC091/A and abc090_a
-!!!!! Please check problem ARC091/B, tenka1_2018/A and problem ids abc090_b, tenka1_2018_a manually
 !!!!! Please check problem ARC091/C, tenka1_2017/A and problem ids arc091_a, tenka1_2017_a manually
+Merged problem ARC091/D and arc091_b
 Merged problem ARC091/E and arc091_c
 Merged problem ARC091/F and arc091_d
 Merged problem ARC092/A and abc091_a
@@ -614,6 +657,7 @@ Merged problem ARC092/F and arc092_d
 Merged problem ARC093/D and arc093_b
 Merged problem ARC093/E and arc093_c
 Merged problem ARC093/F and arc093_d
+Merged problem ARC094/A and abc093_a
 !!!!! Please check problem ARC094/B, ARC094/C and problem ids abc093_b, arc094_a manually
 Merged problem ARC094/D and arc094_b
 !!!!! Please check problem ARC094/E, tenka1_2017/E and problem ids arc094_c, tenka1_2017_e manually
@@ -621,12 +665,14 @@ Merged problem ARC094/F and arc094_d
 Merged problem ARC095/D and arc095_b
 Merged problem ARC095/F and arc095_d
 Merged problem ARC096/A and abc095_a
+Merged problem ARC096/F and arc096_d
 Merged problem ARC097/A and abc097_a
-Merged problem ARC097/D and arc097_b
+Merged problem ARC097/E and arc097_c
 Merged problem ARC097/F and arc097_d
 Merged problem ARC101/E and arc101_c
 Merged problem ARC101/F and arc101_d
 !!!!! Please check problem ARC102/A, tenka1_2019/A and problem ids tenka1_2019_a manually
+!!!!! Please check problem ARC102/B, tenka1_2018/B and problem ids tenka1_2018_b manually
 !!!!! Please check problem ARC102/E, tenka1_2017/B and problem ids arc102_c, tenka1_2017_b manually
 Merged problem ARC102/F and arc102_d
 Merged problem ARC112/A and arc112_a
@@ -1250,10 +1296,13 @@ Merged problem s8pc_3/F and s8pc_3_f
 Merged problem s8pc_3/G and s8pc_3_g
 Merged problem tenka1_2017/D and tenka1_2017_d
 Merged problem tenka1_2017/F and tenka1_2017_f
+Merged problem tenka1_2018/A and tenka1_2018_a
 Merged problem tenka1_2018/C and tenka1_2018_c
 Merged problem tenka1_2018/D and tenka1_2018_d
 Merged problem tenka1_2018/E and tenka1_2018_e
 Merged problem tenka1_2018/F and tenka1_2018_f
+Merged problem tenka1_2019/B and tenka1_2019_b
+Merged problem tenka1_2019/C and tenka1_2019_c
 !!!!! Please check problem tenka1_2019/D and problem ids agc009_e, tenka1_2019_d manually
 Merged problem tenka1_2019/E and tenka1_2019_e
 Merged problem tenka1_2019/F and tenka1_2019_f
