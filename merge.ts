@@ -32,6 +32,8 @@ const data_problems = Object.fromEntries(tree
         })
     )
     .flat()
+    .filter((x: any) => x[0] !== 's8pc_4/s8pc-4')
+    .concat(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'].map((x) => [`s8pc_4/s8pc-4/${x}`, '???']))
     .sort((x: any, y: any) => x[0] < y[0] ? -1 : 1)
 )
 
@@ -41,7 +43,9 @@ const real_contests = JSON.parse(readFileSync('data/contest.json').toString())
 const real_problems = Object.fromEntries(
     Object.entries(
         JSON.parse(readFileSync('data/dict.json').toString()) as Record<string, string>
-    ).map((x) => [x[0], x[1].split(',').map((file) => file.split('.')[0]).join(',')])
+    ).map((x) => [x[0], Array.from(new Set(
+        x[1].split(',').map((file) => file.split('.')[0])
+    )).sort((x, y) => x < y ? -1 : 1).join(',')])
 )
 
 let data_contest_dict: Record<string, string[]> = {}

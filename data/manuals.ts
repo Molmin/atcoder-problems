@@ -4,6 +4,10 @@ function numberArray(from: number, to: number) {
     return arr
 }
 
+function abbr(str: string) {
+    return str.split(',').map((s) => s.split('=') as [string, string])
+}
+
 function buildManuals(data_prefix: string, real_prefix: string, suffix: [string, string][]) {
     return suffix.map(([d, r]) => [`${data_prefix}${d}`, `${real_prefix}${r}`])
 }
@@ -32,7 +36,21 @@ function base(str: string, ex = false) {
 }
 
 export default [
-    ...buildManuals('2019exa/', 'exawizards2019_', [['A', 'a'], ['C', 'c'], ['E', 'e']]),
+    ...buildManuals('2019exa/', 'exawizards2019_', abbr('A=a,C=c,F=f')),
+    ...buildManuals('2020_hitachi/', 'hitachi2020_', abbr('C=c,E=e')),
+    ...buildManuals('CodeFestival2016EliminationTournament/', 'asaporo_', abbr('1A=c,1B=f,2A=e,2B=a,3A=d,3B=b')),
+    ...buildManuals('CodeFestival2017Final/', 'cf17_final_', abbr('A=a,B=b,C=c,D=d,E=e,F=f,G=g,H=h,I=i,J=j')),
+    ...buildManuals('CodeFestival2017QualB/', 'code_festival_2017_qualb_', abbr('A=a,B=b,C=c')),
+    ...buildManuals('caddi2018/', 'caddi2018', abbr('A=b_a,B=b_b,C=_a,D=_b,E=_c,F=_d')),
+    ...buildManuals('jsc2019/', 'jsc2019_qual_', abbr('A=a,B=b,C=c,E=e')),
+    ...buildManuals('msolutions2019/', 'm_solutions2019_', abbr('E=e,F=f')),
+    ...buildManuals('nomura2020/', 'nomura2020_', abbr('B=b,E=e,F=f')),
+    ...buildManuals('tenka1_201', 'tenka1_201', abbr('7/C=7_c,8/B=8_b,9/A=9_a')),
+    ...buildManuals('tokiomarine2020/', 'tokiomarine2020_', abbr('A=a,B=b,C=c,D=d,E=e,F=f')),
+    ...buildManuals('CodeFestival2016Relay/', 'relay_', abbr('A=a,B=b,C=c,D=d,E=e,F=f,G=g,H=h,I=i,J=j')),
+    ...buildManuals('s8pc_4/s8pc-4/', 's8pc_4_', abbr('A=a,B=b,C=c,D=d,E=e,F=f,G=g,H=h')),
+    ['dwacon5th-prelims/D', 'dwacon5th_prelims_d'],
+    ['s8pc_3/H', 's8pc_3_h'],
     ...[
         ...[109, 110, ...numberArray(112, 125)]
             .map((x) => buildSingleContest(`ABC${x}`, 4)).flat(),
@@ -46,9 +64,9 @@ export default [
         ...numberArray(104, 161).map((x) => buildSingleContest(`ARC${x}`, 6)).flat(),
         'APC001A',
     ].map((x) => base(x)),
-    ...[
-        ...numberArray(233, 305).map((x) => buildSingleContest(`ABC${x}`, 8)).flat(),
-    ].map((x) => base(x, true)),
+    ...numberArray(233, 305)
+        .map((x) => buildSingleContest(`ABC${x}`, 8)).flat()
+        .map((x) => base(x, true)),
     ...[
         '042, 058, ARC058_ABC042', '043, 059, ARC059_ABC043',
         '044, 060', '045, 061', '048, 064', '049, 065', '053, 068',
