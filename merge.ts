@@ -57,6 +57,8 @@ function mergeContest(real_id: string, data_id: string) {
 function mergeProblem(real_id: string, data_id: string) {
     console.log(`Merged problem ${data_id} and ${real_id}`)
     result[real_id] = data_id
+    if (!data_problems[data_id] || !real_problems[real_id])
+        throw new Error('Real problem or data dir not found')
 }
 
 for (const [contestId, problems] of Object.entries(data_contests)) {
