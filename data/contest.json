@@ -2927,5 +2927,1467 @@
   "ahc013": [
     "ahc013_a",
     "ahc013_b"
+  ],
+  "ahc014": [
+    "ahc014_a",
+    "ahc014_b"
+  ],
+  "ahc015": [
+    "ahc015_a"
+  ],
+  "ahc016": [
+    "ahc016_a",
+    "ahc016_b"
+  ],
+  "ahc017": [
+    "ahc017_a",
+    "ahc017_b"
+  ],
+  "ahc018": [
+    "ahc018_a",
+    "ahc018_b"
+  ],
+  "ahc019": [
+    "ahc019_a",
+    "ahc019_b"
+  ],
+  "ahc020": [
+    "ahc020_a"
+  ],
+  "ahc021": [
+    "ahc021_a"
+  ],
+  "ahc022": [
+    "ahc022_a",
+    "ahc022_b"
+  ],
+  "ahc023": [
+    "asprocon10_a",
+    "asprocon10_b"
+  ],
+  "ahc024": [
+    "ahc024_a"
+  ],
+  "ahc025": [
+    "ahc025_a",
+    "ahc025_b"
+  ],
+  "ahc026": [
+    "ahc026_a"
+  ],
+  "aising2019": [
+    "aising2019_a",
+    "aising2019_b",
+    "aising2019_c",
+    "aising2019_d",
+    "aising2019_e"
+  ],
+  "aising2020": [
+    "aising2020_a",
+    "aising2020_b",
+    "aising2020_c",
+    "aising2020_d",
+    "aising2020_e",
+    "aising2020_f"
+  ],
+  "apc001": [
+    "apc001_a",
+    "apc001_b",
+    "apc001_c",
+    "apc001_d",
+    "apc001_e",
+    "apc001_f",
+    "apc001_g",
+    "apc001_h",
+    "apc001_i",
+    "apc001_j"
+  ],
+  "arc058": [
+    "arc058_a",
+    "arc058_b",
+    "arc058_c",
+    "arc058_d"
+  ],
+  "arc059": [
+    "arc059_a",
+    "arc059_b",
+    "arc059_c",
+    "arc059_d"
+  ],
+  "arc060": [
+    "arc060_a",
+    "arc060_b",
+    "arc060_c",
+    "arc060_d"
+  ],
+  "arc061": [
+    "arc061_a",
+    "arc061_b",
+    "arc061_c",
+    "arc061_d"
+  ],
+  "arc062": [
+    "arc062_a",
+    "arc062_b",
+    "arc062_c",
+    "arc062_d"
+  ],
+  "arc063": [
+    "arc063_a",
+    "arc063_b",
+    "arc063_c",
+    "arc063_d"
+  ],
+  "arc064": [
+    "arc064_a",
+    "arc064_b",
+    "arc064_c",
+    "arc064_d"
+  ],
+  "arc065": [
+    "arc065_a",
+    "arc065_b",
+    "arc065_c",
+    "arc065_d"
+  ],
+  "arc066": [
+    "arc066_a",
+    "arc066_b",
+    "arc066_c",
+    "arc066_d"
+  ],
+  "arc067": [
+    "arc067_a",
+    "arc067_b",
+    "arc067_c",
+    "arc067_d"
+  ],
+  "arc068": [
+    "arc068_a",
+    "arc068_b",
+    "arc068_c",
+    "arc068_d"
+  ],
+  "arc069": [
+    "arc069_a",
+    "arc069_b",
+    "arc069_c",
+    "arc069_d"
+  ],
+  "arc070": [
+    "arc070_a",
+    "arc070_b",
+    "arc070_c",
+    "arc070_d"
+  ],
+  "arc071": [
+    "arc071_a",
+    "arc071_b",
+    "arc071_c",
+    "arc071_d"
+  ],
+  "arc072": [
+    "arc072_a",
+    "arc072_b",
+    "arc072_c",
+    "arc072_d"
+  ],
+  "arc073": [
+    "arc073_a",
+    "arc073_b",
+    "arc073_c",
+    "arc073_d"
+  ],
+  "arc074": [
+    "arc074_a",
+    "arc074_b",
+    "arc074_c",
+    "arc074_d"
+  ],
+  "arc075": [
+    "arc075_a",
+    "arc075_b",
+    "arc075_c",
+    "arc075_d"
+  ],
+  "arc076": [
+    "arc076_a",
+    "arc076_b",
+    "arc076_c",
+    "arc076_d"
+  ],
+  "arc077": [
+    "arc077_a",
+    "arc077_b",
+    "arc077_c",
+    "arc077_d"
+  ],
+  "arc078": [
+    "arc078_a",
+    "arc078_b",
+    "arc078_c",
+    "arc078_d"
+  ],
+  "arc079": [
+    "arc079_a",
+    "arc079_b",
+    "arc079_c",
+    "arc079_d"
+  ],
+  "arc080": [
+    "arc080_a",
+    "arc080_b",
+    "arc080_c",
+    "arc080_d"
+  ],
+  "arc081": [
+    "arc081_a",
+    "arc081_b",
+    "arc081_c",
+    "arc081_d"
+  ],
+  "arc082": [
+    "arc082_a",
+    "arc082_b",
+    "arc082_c",
+    "arc082_d"
+  ],
+  "arc083": [
+    "arc083_a",
+    "arc083_b",
+    "arc083_c",
+    "arc083_d"
+  ],
+  "arc084": [
+    "arc084_a",
+    "arc084_b",
+    "arc084_c",
+    "arc084_d"
+  ],
+  "arc085": [
+    "arc085_a",
+    "arc085_b",
+    "arc085_c",
+    "arc085_d"
+  ],
+  "arc086": [
+    "arc086_a",
+    "arc086_b",
+    "arc086_c",
+    "arc086_d"
+  ],
+  "arc087": [
+    "arc087_a",
+    "arc087_b",
+    "arc087_c",
+    "arc087_d"
+  ],
+  "arc088": [
+    "arc088_a",
+    "arc088_b",
+    "arc088_c",
+    "arc088_d"
+  ],
+  "arc089": [
+    "arc089_a",
+    "arc089_b",
+    "arc089_c",
+    "arc089_d"
+  ],
+  "arc090": [
+    "arc090_a",
+    "arc090_b",
+    "arc090_c",
+    "arc090_d"
+  ],
+  "arc091": [
+    "arc091_a",
+    "arc091_b",
+    "arc091_c",
+    "arc091_d"
+  ],
+  "arc092": [
+    "arc092_a",
+    "arc092_b",
+    "arc092_c",
+    "arc092_d"
+  ],
+  "arc093": [
+    "arc093_a",
+    "arc093_b",
+    "arc093_c",
+    "arc093_d"
+  ],
+  "arc094": [
+    "arc094_a",
+    "arc094_b",
+    "arc094_c",
+    "arc094_d"
+  ],
+  "arc095": [
+    "arc095_a",
+    "arc095_b",
+    "arc095_c",
+    "arc095_d"
+  ],
+  "arc096": [
+    "arc096_a",
+    "arc096_b",
+    "arc096_c",
+    "arc096_d"
+  ],
+  "arc097": [
+    "arc097_a",
+    "arc097_b",
+    "arc097_c",
+    "arc097_d"
+  ],
+  "arc098": [
+    "arc098_a",
+    "arc098_b",
+    "arc098_c",
+    "arc098_d"
+  ],
+  "arc099": [
+    "arc099_a",
+    "arc099_b",
+    "arc099_c",
+    "arc099_d"
+  ],
+  "arc100": [
+    "arc100_a",
+    "arc100_b",
+    "arc100_c",
+    "arc100_d"
+  ],
+  "arc101": [
+    "arc101_a",
+    "arc101_b",
+    "arc101_c",
+    "arc101_d"
+  ],
+  "arc102": [
+    "arc102_a",
+    "arc102_b",
+    "arc102_c",
+    "arc102_d"
+  ],
+  "arc103": [
+    "arc103_a",
+    "arc103_b",
+    "arc103_c",
+    "arc103_d"
+  ],
+  "arc104": [
+    "arc104_a",
+    "arc104_b",
+    "arc104_c",
+    "arc104_d",
+    "arc104_e",
+    "arc104_f"
+  ],
+  "arc105": [
+    "arc105_a",
+    "arc105_b",
+    "arc105_c",
+    "arc105_d",
+    "arc105_e",
+    "arc105_f"
+  ],
+  "arc106": [
+    "arc106_a",
+    "arc106_b",
+    "arc106_c",
+    "arc106_d",
+    "arc106_e",
+    "arc106_f"
+  ],
+  "arc107": [
+    "arc107_a",
+    "arc107_b",
+    "arc107_c",
+    "arc107_d",
+    "arc107_e",
+    "arc107_f"
+  ],
+  "arc108": [
+    "arc108_a",
+    "arc108_b",
+    "arc108_c",
+    "arc108_d",
+    "arc108_e",
+    "arc108_f"
+  ],
+  "arc109": [
+    "arc109_a",
+    "arc109_b",
+    "arc109_c",
+    "arc109_d",
+    "arc109_e",
+    "arc109_f"
+  ],
+  "arc110": [
+    "arc110_a",
+    "arc110_b",
+    "arc110_c",
+    "arc110_d",
+    "arc110_e",
+    "arc110_f"
+  ],
+  "arc111": [
+    "arc111_a",
+    "arc111_b",
+    "arc111_c",
+    "arc111_d",
+    "arc111_e",
+    "arc111_f"
+  ],
+  "arc112": [
+    "arc112_a",
+    "arc112_b",
+    "arc112_c",
+    "arc112_d",
+    "arc112_e",
+    "arc112_f"
+  ],
+  "arc113": [
+    "arc113_a",
+    "arc113_b",
+    "arc113_c",
+    "arc113_d",
+    "arc113_e",
+    "arc113_f"
+  ],
+  "arc114": [
+    "arc114_a",
+    "arc114_b",
+    "arc114_c",
+    "arc114_d",
+    "arc114_e",
+    "arc114_f"
+  ],
+  "arc115": [
+    "arc115_a",
+    "arc115_b",
+    "arc115_c",
+    "arc115_d",
+    "arc115_e",
+    "arc115_f"
+  ],
+  "arc116": [
+    "arc116_a",
+    "arc116_b",
+    "arc116_c",
+    "arc116_d",
+    "arc116_e",
+    "arc116_f"
+  ],
+  "arc117": [
+    "arc117_a",
+    "arc117_b",
+    "arc117_c",
+    "arc117_d",
+    "arc117_e",
+    "arc117_f"
+  ],
+  "arc118": [
+    "arc118_a",
+    "arc118_b",
+    "arc118_c",
+    "arc118_d",
+    "arc118_e",
+    "arc118_f"
+  ],
+  "arc119": [
+    "arc119_a",
+    "arc119_b",
+    "arc119_c",
+    "arc119_d",
+    "arc119_e",
+    "arc119_f"
+  ],
+  "arc120": [
+    "arc120_a",
+    "arc120_b",
+    "arc120_c",
+    "arc120_d",
+    "arc120_e",
+    "arc120_f",
+    "arc120_f2"
+  ],
+  "arc121": [
+    "arc121_a",
+    "arc121_b",
+    "arc121_c",
+    "arc121_d",
+    "arc121_e",
+    "arc121_f"
+  ],
+  "arc122": [
+    "arc122_a",
+    "arc122_b",
+    "arc122_c",
+    "arc122_d",
+    "arc122_e",
+    "arc122_f"
+  ],
+  "arc123": [
+    "arc123_a",
+    "arc123_b",
+    "arc123_c",
+    "arc123_d",
+    "arc123_e",
+    "arc123_f"
+  ],
+  "arc124": [
+    "arc124_a",
+    "arc124_b",
+    "arc124_c",
+    "arc124_d",
+    "arc124_e",
+    "arc124_f"
+  ],
+  "arc125": [
+    "arc125_a",
+    "arc125_b",
+    "arc125_c",
+    "arc125_d",
+    "arc125_e",
+    "arc125_f"
+  ],
+  "arc126": [
+    "arc126_a",
+    "arc126_b",
+    "arc126_c",
+    "arc126_d",
+    "arc126_e",
+    "arc126_f"
+  ],
+  "arc127": [
+    "arc127_a",
+    "arc127_b",
+    "arc127_c",
+    "arc127_d",
+    "arc127_e",
+    "arc127_f"
+  ],
+  "arc128": [
+    "arc128_a",
+    "arc128_b",
+    "arc128_c",
+    "arc128_d",
+    "arc128_e",
+    "arc128_f"
+  ],
+  "arc129": [
+    "arc129_a",
+    "arc129_b",
+    "arc129_c",
+    "arc129_d",
+    "arc129_e",
+    "arc129_f"
+  ],
+  "arc130": [
+    "arc130_a",
+    "arc130_b",
+    "arc130_c",
+    "arc130_d",
+    "arc130_e",
+    "arc130_f"
+  ],
+  "arc131": [
+    "arc131_a",
+    "arc131_b",
+    "arc131_c",
+    "arc131_d",
+    "arc131_e",
+    "arc131_f"
+  ],
+  "arc132": [
+    "arc132_a",
+    "arc132_b",
+    "arc132_c",
+    "arc132_d",
+    "arc132_e",
+    "arc132_f"
+  ],
+  "arc133": [
+    "arc133_a",
+    "arc133_b",
+    "arc133_c",
+    "arc133_d",
+    "arc133_e",
+    "arc133_f"
+  ],
+  "arc134": [
+    "arc134_a",
+    "arc134_b",
+    "arc134_c",
+    "arc134_d",
+    "arc134_e",
+    "arc134_f"
+  ],
+  "arc135": [
+    "arc135_a",
+    "arc135_b",
+    "arc135_c",
+    "arc135_d",
+    "arc135_e",
+    "arc135_f"
+  ],
+  "arc136": [
+    "arc136_a",
+    "arc136_b",
+    "arc136_c",
+    "arc136_d",
+    "arc136_e",
+    "arc136_f"
+  ],
+  "arc137": [
+    "arc137_a",
+    "arc137_b",
+    "arc137_c",
+    "arc137_d",
+    "arc137_e",
+    "arc137_f"
+  ],
+  "arc138": [
+    "arc138_a",
+    "arc138_b",
+    "arc138_c",
+    "arc138_d",
+    "arc138_e",
+    "arc138_f"
+  ],
+  "arc139": [
+    "arc139_a",
+    "arc139_b",
+    "arc139_c",
+    "arc139_d",
+    "arc139_e",
+    "arc139_f"
+  ],
+  "arc140": [
+    "arc140_a",
+    "arc140_b",
+    "arc140_c",
+    "arc140_d",
+    "arc140_e",
+    "arc140_f"
+  ],
+  "arc141": [
+    "arc141_a",
+    "arc141_b",
+    "arc141_c",
+    "arc141_d",
+    "arc141_e",
+    "arc141_f"
+  ],
+  "arc142": [
+    "arc142_a",
+    "arc142_b",
+    "arc142_c",
+    "arc142_d",
+    "arc142_e",
+    "arc142_f"
+  ],
+  "arc143": [
+    "arc143_a",
+    "arc143_b",
+    "arc143_c",
+    "arc143_d",
+    "arc143_e",
+    "arc143_f"
+  ],
+  "arc144": [
+    "arc144_a",
+    "arc144_b",
+    "arc144_c",
+    "arc144_d",
+    "arc144_e",
+    "arc144_f"
+  ],
+  "arc145": [
+    "arc145_a",
+    "arc145_b",
+    "arc145_c",
+    "arc145_d",
+    "arc145_e",
+    "arc145_f"
+  ],
+  "arc146": [
+    "arc146_a",
+    "arc146_b",
+    "arc146_c",
+    "arc146_d",
+    "arc146_e",
+    "arc146_f"
+  ],
+  "arc147": [
+    "arc147_a",
+    "arc147_b",
+    "arc147_c",
+    "arc147_d",
+    "arc147_e",
+    "arc147_f"
+  ],
+  "arc148": [
+    "arc148_a",
+    "arc148_b",
+    "arc148_c",
+    "arc148_d",
+    "arc148_e",
+    "arc148_f"
+  ],
+  "arc149": [
+    "arc149_a",
+    "arc149_b",
+    "arc149_c",
+    "arc149_d",
+    "arc149_e",
+    "arc149_f"
+  ],
+  "arc150": [
+    "arc150_a",
+    "arc150_b",
+    "arc150_c",
+    "arc150_d",
+    "arc150_e",
+    "arc150_f"
+  ],
+  "arc151": [
+    "arc151_a",
+    "arc151_b",
+    "arc151_c",
+    "arc151_d",
+    "arc151_e",
+    "arc151_f"
+  ],
+  "arc152": [
+    "arc152_a",
+    "arc152_b",
+    "arc152_c",
+    "arc152_d",
+    "arc152_e",
+    "arc152_f"
+  ],
+  "arc153": [
+    "arc153_a",
+    "arc153_b",
+    "arc153_c",
+    "arc153_d",
+    "arc153_e",
+    "arc153_f"
+  ],
+  "arc154": [
+    "arc154_a",
+    "arc154_b",
+    "arc154_c",
+    "arc154_d",
+    "arc154_e",
+    "arc154_f"
+  ],
+  "arc155": [
+    "arc155_a",
+    "arc155_b",
+    "arc155_c",
+    "arc155_d",
+    "arc155_e",
+    "arc155_f"
+  ],
+  "arc156": [
+    "arc156_a",
+    "arc156_b",
+    "arc156_c",
+    "arc156_d",
+    "arc156_e",
+    "arc156_f"
+  ],
+  "arc157": [
+    "arc157_a",
+    "arc157_b",
+    "arc157_c",
+    "arc157_d",
+    "arc157_e",
+    "arc157_f"
+  ],
+  "arc158": [
+    "arc158_a",
+    "arc158_b",
+    "arc158_c",
+    "arc158_d",
+    "arc158_e",
+    "arc158_f"
+  ],
+  "arc159": [
+    "arc159_a",
+    "arc159_b",
+    "arc159_c",
+    "arc159_d",
+    "arc159_e",
+    "arc159_f"
+  ],
+  "arc160": [
+    "arc160_a",
+    "arc160_b",
+    "arc160_c",
+    "arc160_d",
+    "arc160_e",
+    "arc160_f"
+  ],
+  "arc161": [
+    "arc161_a",
+    "arc161_b",
+    "arc161_c",
+    "arc161_d",
+    "arc161_e",
+    "arc161_f"
+  ],
+  "arc162": [
+    "arc162_a",
+    "arc162_b",
+    "arc162_c",
+    "arc162_d",
+    "arc162_e",
+    "arc162_f"
+  ],
+  "arc163": [
+    "arc163_a",
+    "arc163_b",
+    "arc163_c",
+    "arc163_d",
+    "arc163_e",
+    "arc163_f"
+  ],
+  "arc164": [
+    "arc164_a",
+    "arc164_b",
+    "arc164_c",
+    "arc164_d",
+    "arc164_e",
+    "arc164_f"
+  ],
+  "arc165": [
+    "arc165_a",
+    "arc165_b",
+    "arc165_c",
+    "arc165_d",
+    "arc165_e",
+    "arc165_f"
+  ],
+  "arc166": [
+    "arc166_a",
+    "arc166_b",
+    "arc166_c",
+    "arc166_d",
+    "arc166_e",
+    "arc166_f"
+  ],
+  "arc167": [
+    "arc167_a",
+    "arc167_b",
+    "arc167_c",
+    "arc167_d",
+    "arc167_e",
+    "arc167_f"
+  ],
+  "arc168": [
+    "arc168_a",
+    "arc168_b",
+    "arc168_c",
+    "arc168_d",
+    "arc168_e",
+    "arc168_f"
+  ],
+  "caddi2018": [
+    "caddi2018_a",
+    "caddi2018_b",
+    "caddi2018_c",
+    "caddi2018_d"
+  ],
+  "caddi2018b": [
+    "caddi2018b_a",
+    "caddi2018b_b",
+    "caddi2018_a",
+    "caddi2018_b"
+  ],
+  "cf16-exhibition": [
+    "codefestival_2016_ex_a",
+    "codefestival_2016_ex_b"
+  ],
+  "cf16-exhibition-final": [
+    "cf16_exhibition_final_a",
+    "cf16_exhibition_final_b",
+    "cf16_exhibition_final_c",
+    "cf16_exhibition_final_d",
+    "cf16_exhibition_final_e",
+    "cf16_exhibition_final_f",
+    "cf16_exhibition_final_g",
+    "cf16_exhibition_final_h",
+    "cf16_exhibition_final_i",
+    "cf16_exhibition_final_j"
+  ],
+  "cf16-exhibition-final-open": [
+    "cf16_exhibition_final_a",
+    "cf16_exhibition_final_b",
+    "cf16_exhibition_final_c",
+    "cf16_exhibition_final_d",
+    "cf16_exhibition_final_e",
+    "cf16_exhibition_final_f",
+    "cf16_exhibition_final_g",
+    "cf16_exhibition_final_h",
+    "cf16_exhibition_final_i",
+    "cf16_exhibition_final_j"
+  ],
+  "cf16-exhibition-open": [
+    "codefestival_2016_ex_a",
+    "codefestival_2016_ex_b"
+  ],
+  "cf16-final": [
+    "codefestival_2016_final_a",
+    "codefestival_2016_final_b",
+    "codefestival_2016_final_c",
+    "codefestival_2016_final_d",
+    "codefestival_2016_final_e",
+    "codefestival_2016_final_f",
+    "codefestival_2016_final_g",
+    "codefestival_2016_final_h",
+    "codefestival_2016_final_i",
+    "codefestival_2016_final_j"
+  ],
+  "cf16-final-open": [
+    "codefestival_2016_final_a",
+    "codefestival_2016_final_b",
+    "codefestival_2016_final_c",
+    "codefestival_2016_final_d",
+    "codefestival_2016_final_e",
+    "codefestival_2016_final_f",
+    "codefestival_2016_final_g",
+    "codefestival_2016_final_h",
+    "codefestival_2016_final_i",
+    "codefestival_2016_final_j"
+  ],
+  "cf16-relay-open": [
+    "relay_a",
+    "relay_b",
+    "relay_c",
+    "relay_d",
+    "relay_e",
+    "relay_f",
+    "relay_g",
+    "relay_h",
+    "relay_i",
+    "relay_j",
+    "relay_k"
+  ],
+  "cf16-tournament-round1-open": [
+    "asaporo_c",
+    "asaporo_f"
+  ],
+  "cf16-tournament-round2-open": [
+    "asaporo_e",
+    "asaporo_a"
+  ],
+  "cf16-tournament-round3-open": [
+    "asaporo_d",
+    "asaporo_b"
+  ],
+  "cf17-exhibition-open": [
+    "cf17_exhibition_a",
+    "cf17_exhibition_b"
+  ],
+  "cf17-final": [
+    "cf17_final_a",
+    "cf17_final_b",
+    "cf17_final_c",
+    "cf17_final_d",
+    "cf17_final_e",
+    "cf17_final_f",
+    "cf17_final_g",
+    "cf17_final_h",
+    "cf17_final_i",
+    "cf17_final_j"
+  ],
+  "cf17-final-open": [
+    "cf17_final_a",
+    "cf17_final_b",
+    "cf17_final_c",
+    "cf17_final_d",
+    "cf17_final_e",
+    "cf17_final_f",
+    "cf17_final_g",
+    "cf17_final_h",
+    "cf17_final_i",
+    "cf17_final_j"
+  ],
+  "cf17-relay-open": [
+    "relay2_a",
+    "relay2_b",
+    "relay2_c",
+    "relay2_d",
+    "relay2_e",
+    "relay2_f",
+    "relay2_g",
+    "relay2_h",
+    "relay2_i",
+    "relay2_j"
+  ],
+  "cf17-tournament-round1-open": [
+    "asaporo2_c",
+    "asaporo2_d"
+  ],
+  "cf17-tournament-round2-open": [
+    "asaporo2_a",
+    "asaporo2_b"
+  ],
+  "cf17-tournament-round3-open": [
+    "asaporo2_e",
+    "asaporo2_f"
+  ],
+  "code-festival-2016-quala": [
+    "codefestival_2016_quala_a",
+    "codefestival_2016_quala_b",
+    "codefestival_2016_quala_c",
+    "codefestival_2016_quala_d",
+    "codefestival_2016_quala_e"
+  ],
+  "code-festival-2016-qualb": [
+    "codefestival_2016_qualb_a",
+    "codefestival_2016_qualb_b",
+    "codefestival_2016_qualb_c",
+    "codefestival_2016_qualb_d",
+    "codefestival_2016_qualb_e"
+  ],
+  "code-festival-2016-qualc": [
+    "codefestival_2016_qualc_a",
+    "codefestival_2016_qualc_b",
+    "codefestival_2016_qualc_c",
+    "codefestival_2016_qualc_d",
+    "codefestival_2016_qualc_e"
+  ],
+  "code-festival-2017-quala": [
+    "code_festival_2017_quala_a",
+    "code_festival_2017_quala_b",
+    "code_festival_2017_quala_c",
+    "code_festival_2017_quala_d",
+    "code_festival_2017_quala_e",
+    "code_festival_2017_quala_f"
+  ],
+  "code-festival-2017-qualb": [
+    "code_festival_2017_qualb_a",
+    "code_festival_2017_qualb_b",
+    "code_festival_2017_qualb_c",
+    "code_festival_2017_qualb_d",
+    "code_festival_2017_qualb_e",
+    "code_festival_2017_qualb_f"
+  ],
+  "code-festival-2017-qualc": [
+    "code_festival_2017_qualc_a",
+    "code_festival_2017_qualc_b",
+    "code_festival_2017_qualc_c",
+    "code_festival_2017_qualc_d",
+    "code_festival_2017_qualc_e",
+    "code_festival_2017_qualc_f"
+  ],
+  "ddcc2020-qual": [
+    "ddcc2020_qual_a",
+    "ddcc2020_qual_b",
+    "ddcc2020_qual_c",
+    "ddcc2020_qual_d",
+    "ddcc2020_qual_e",
+    "ddcc2020_qual_f"
+  ],
+  "degwer2023": [
+    "1202contest_a",
+    "1202contest_b",
+    "1202contest_c",
+    "1202contest_d",
+    "1202contest_e",
+    "1202contest_f",
+    "1202contest_g",
+    "1202contest_h",
+    "1202contest_i",
+    "1202contest_j",
+    "1202contest_k"
+  ],
+  "diverta2019": [
+    "diverta2019_a",
+    "diverta2019_b",
+    "diverta2019_c",
+    "diverta2019_d",
+    "diverta2019_e",
+    "diverta2019_f"
+  ],
+  "diverta2019-2": [
+    "diverta2019_2_a",
+    "diverta2019_2_b",
+    "diverta2019_2_c",
+    "diverta2019_2_d",
+    "diverta2019_2_e",
+    "diverta2019_2_f"
+  ],
+  "dp": [
+    "dp_a",
+    "dp_b",
+    "dp_c",
+    "dp_d",
+    "dp_e",
+    "dp_f",
+    "dp_g",
+    "dp_h",
+    "dp_i",
+    "dp_j",
+    "dp_k",
+    "dp_l",
+    "dp_m",
+    "dp_n",
+    "dp_o",
+    "dp_p",
+    "dp_q",
+    "dp_r",
+    "dp_s",
+    "dp_t",
+    "dp_u",
+    "dp_v",
+    "dp_w",
+    "dp_x",
+    "dp_y",
+    "dp_z"
+  ],
+  "dwacon5th-prelims": [
+    "dwacon5th_prelims_a",
+    "dwacon5th_prelims_b",
+    "dwacon5th_prelims_c",
+    "dwacon5th_prelims_d",
+    "dwacon5th_prelims_e"
+  ],
+  "dwacon6th-prelims": [
+    "dwacon6th_prelims_a",
+    "dwacon6th_prelims_b",
+    "dwacon6th_prelims_c",
+    "dwacon6th_prelims_d",
+    "dwacon6th_prelims_e"
+  ],
+  "exawizards2019": [
+    "exawizards2019_a",
+    "exawizards2019_b",
+    "exawizards2019_c",
+    "exawizards2019_d",
+    "exawizards2019_e",
+    "exawizards2019_f"
+  ],
+  "future-contest-2022-final-open": [
+    "future_contest_2022_final_a"
+  ],
+  "future-contest-2022-qual": [
+    "future_contest_2022_qual_a"
+  ],
+  "future-contest-2023-final-open": [
+    "future_contest_2023_final_a"
+  ],
+  "hhkb2020": [
+    "hhkb2020_a",
+    "hhkb2020_b",
+    "hhkb2020_c",
+    "hhkb2020_d",
+    "hhkb2020_e",
+    "hhkb2020_f"
+  ],
+  "hitachi2020": [
+    "hitachi2020_a",
+    "hitachi2020_b",
+    "hitachi2020_c",
+    "hitachi2020_d",
+    "hitachi2020_e",
+    "hitachi2020_f"
+  ],
+  "hokudai-hitachi2019-1": [
+    "hokudai_hitachi2019_1_a",
+    "hokudai_hitachi2019_1_b"
+  ],
+  "hokudai-hitachi2020": [
+    "hokudai_hitachi2020_a",
+    "hokudai_hitachi2020_b"
+  ],
+  "hokudai-hitachi2021": [
+    "hokudai_hitachi2021_a",
+    "hokudai_hitachi2021_b"
+  ],
+  "hokudai-hitachi2022": [
+    "hokudai_hitachi2022_a",
+    "hokudai_hitachi2022_b",
+    "hokudai_hitachi2022_c",
+    "hokudai_hitachi2022_d"
+  ],
+  "intro-heuristics": [
+    "intro_heuristics_a",
+    "intro_heuristics_b",
+    "intro_heuristics_c"
+  ],
+  "jsc2019-qual": [
+    "jsc2019_qual_a",
+    "jsc2019_qual_b",
+    "jsc2019_qual_c",
+    "jsc2019_qual_d",
+    "jsc2019_qual_e",
+    "jsc2019_qual_f"
+  ],
+  "jsc2021": [
+    "jsc2021_a",
+    "jsc2021_b",
+    "jsc2021_c",
+    "jsc2021_d",
+    "jsc2021_e",
+    "jsc2021_f",
+    "jsc2021_g",
+    "jsc2021_h"
+  ],
+  "keyence2019": [
+    "keyence2019_a",
+    "keyence2019_b",
+    "keyence2019_c",
+    "keyence2019_d",
+    "keyence2019_e",
+    "keyence2019_f"
+  ],
+  "keyence2020": [
+    "keyence2020_a",
+    "keyence2020_b",
+    "keyence2020_c",
+    "keyence2020_d",
+    "keyence2020_e",
+    "keyence2020_f"
+  ],
+  "keyence2021": [
+    "keyence2021_a",
+    "keyence2021_b",
+    "keyence2021_c",
+    "keyence2021_d",
+    "keyence2021_e",
+    "keyence2021_f"
+  ],
+  "kupc2016": [
+    "kupc2016_a",
+    "kupc2016_b",
+    "kupc2016_c",
+    "kupc2016_d",
+    "kupc2016_e",
+    "kupc2016_f",
+    "kupc2016_g",
+    "kupc2016_h",
+    "kupc2016_i",
+    "kupc2016_j",
+    "kupc2016_k"
+  ],
+  "m-solutions2019": [
+    "m_solutions2019_a",
+    "m_solutions2019_b",
+    "m_solutions2019_c",
+    "m_solutions2019_d",
+    "m_solutions2019_e",
+    "m_solutions2019_f"
+  ],
+  "m-solutions2020": [
+    "m_solutions2020_a",
+    "m_solutions2020_b",
+    "m_solutions2020_c",
+    "m_solutions2020_d",
+    "m_solutions2020_e",
+    "m_solutions2020_f"
+  ],
+  "mujin-pc-2017": [
+    "mujin_pc_2017_a",
+    "mujin_pc_2017_b",
+    "mujin_pc_2017_c",
+    "mujin_pc_2017_d"
+  ],
+  "nikkei2019-2-qual": [
+    "nikkei2019_2_qual_a",
+    "nikkei2019_2_qual_b",
+    "nikkei2019_2_qual_c",
+    "nikkei2019_2_qual_d",
+    "nikkei2019_2_qual_e",
+    "nikkei2019_2_qual_f"
+  ],
+  "nikkei2019-qual": [
+    "nikkei2019_qual_a",
+    "nikkei2019_qual_b",
+    "nikkei2019_qual_c",
+    "nikkei2019_qual_d",
+    "nikkei2019_qual_e",
+    "nikkei2019_qual_f"
+  ],
+  "nomura2020": [
+    "nomura2020_a",
+    "nomura2020_b",
+    "nomura2020_c",
+    "nomura2020_d",
+    "nomura2020_e",
+    "nomura2020_f"
+  ],
+  "panasonic2020": [
+    "panasonic2020_a",
+    "panasonic2020_b",
+    "panasonic2020_c",
+    "panasonic2020_d",
+    "panasonic2020_e",
+    "panasonic2020_f"
+  ],
+  "rcl-contest-2021-long": [
+    "rcl_contest_2021_long_a"
+  ],
+  "s8pc-3": [
+    "s8pc_3_a",
+    "s8pc_3_b",
+    "s8pc_3_c",
+    "s8pc_3_d",
+    "s8pc_3_e",
+    "s8pc_3_f",
+    "s8pc_3_g",
+    "s8pc_3_h"
+  ],
+  "s8pc-4": [
+    "s8pc_4_a",
+    "s8pc_4_b",
+    "s8pc_4_c",
+    "s8pc_4_d",
+    "s8pc_4_e",
+    "s8pc_4_f",
+    "s8pc_4_g",
+    "s8pc_4_h"
+  ],
+  "soundhound2018-summer-qual": [
+    "soundhound2018_summer_qual_a",
+    "soundhound2018_summer_qual_b",
+    "soundhound2018_summer_qual_c",
+    "soundhound2018_summer_qual_d",
+    "soundhound2018_summer_qual_e"
+  ],
+  "sumitrust2019": [
+    "sumitb2019_a",
+    "sumitb2019_b",
+    "sumitb2019_c",
+    "sumitb2019_d",
+    "sumitb2019_e",
+    "sumitb2019_f"
+  ],
+  "tenka1-2017": [
+    "tenka1_2017_c",
+    "tenka1_2017_d",
+    "tenka1_2017_e",
+    "tenka1_2017_f"
+  ],
+  "tenka1-2017-beginner": [
+    "tenka1_2017_a",
+    "tenka1_2017_b",
+    "tenka1_2017_c",
+    "tenka1_2017_d"
+  ],
+  "tenka1-2018": [
+    "tenka1_2018_c",
+    "tenka1_2018_d",
+    "tenka1_2018_e",
+    "tenka1_2018_f"
+  ],
+  "tenka1-2018-beginner": [
+    "tenka1_2018_a",
+    "tenka1_2018_b",
+    "tenka1_2018_c",
+    "tenka1_2018_d"
+  ],
+  "tenka1-2019": [
+    "tenka1_2019_c",
+    "tenka1_2019_d",
+    "tenka1_2019_e",
+    "tenka1_2019_f"
+  ],
+  "tenka1-2019-beginner": [
+    "tenka1_2019_a",
+    "tenka1_2019_b",
+    "tenka1_2019_c",
+    "tenka1_2019_d"
+  ],
+  "tokiomarine2020": [
+    "tokiomarine2020_a",
+    "tokiomarine2020_b",
+    "tokiomarine2020_c",
+    "tokiomarine2020_d",
+    "tokiomarine2020_e",
+    "tokiomarine2020_f"
+  ],
+  "toyota2023spring-final": [
+    "toyota2023spring_final_a",
+    "toyota2023spring_final_b",
+    "toyota2023spring_final_c",
+    "toyota2023spring_final_d",
+    "toyota2023spring_final_e",
+    "toyota2023spring_final_f",
+    "toyota2023spring_final_g"
+  ],
+  "toyota2023summer-final": [
+    "toyota2023summer_final_a"
+  ],
+  "toyota2023summer-final-open": [
+    "toyota2023summer_final_a"
+  ],
+  "wtf19": [
+    "wtf19_a",
+    "wtf19_b",
+    "wtf19_c1",
+    "wtf19_c2",
+    "wtf19_d",
+    "wtf19_e"
+  ],
+  "wtf19-open": [
+    "wtf19_a",
+    "wtf19_b",
+    "wtf19_c1",
+    "wtf19_c2",
+    "wtf19_d",
+    "wtf19_e"
+  ],
+  "wtf22-day1": [
+    "wtf22_day1_a",
+    "wtf22_day1_b",
+    "wtf22_day1_c",
+    "wtf22_day1_d",
+    "wtf22_day1_e"
+  ],
+  "wtf22-day1-open": [
+    "wtf22_day1_a",
+    "wtf22_day1_b",
+    "wtf22_day1_c",
+    "wtf22_day1_d",
+    "wtf22_day1_e"
+  ],
+  "wtf22-day2": [
+    "wtf22_day2_a",
+    "wtf22_day2_b",
+    "wtf22_day2_c",
+    "wtf22_day2_d",
+    "wtf22_day2_e"
+  ],
+  "wtf22-day2-open": [
+    "wtf22_day2_a",
+    "wtf22_day2_b",
+    "wtf22_day2_c",
+    "wtf22_day2_d",
+    "wtf22_day2_e"
+  ],
+  "yahoo-procon2019-qual": [
+    "yahoo_procon2019_qual_a",
+    "yahoo_procon2019_qual_b",
+    "yahoo_procon2019_qual_c",
+    "yahoo_procon2019_qual_d",
+    "yahoo_procon2019_qual_e",
+    "yahoo_procon2019_qual_f"
+  ],
+  "zone2021": [
+    "zone2021_a",
+    "zone2021_b",
+    "zone2021_c",
+    "zone2021_d",
+    "zone2021_e",
+    "zone2021_f"
   ]
 }
