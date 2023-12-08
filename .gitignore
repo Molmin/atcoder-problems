@@ -4,3 +4,4 @@ secret.json
 *.log
 data/invalid_lines
 data/tree.json
+data/result.json
