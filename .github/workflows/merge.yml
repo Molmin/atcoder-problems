@@ -4,6 +4,14 @@ on:
   push:
     branches:    
       - master
+    paths:
+      - 'data/contest.json'
+      - 'data/dict.json'
+      - 'data/files.txt'
+      - 'data/readme.md'
+      - 'data/manuals.ts'
+      - 'tree-parser.ts'
+      - 'merge.ts'
 
 permissions:
   contents: write
