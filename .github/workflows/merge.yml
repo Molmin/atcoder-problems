@@ -13,10 +13,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-    - name: Run
+    - name: Install
       run: |
         npm install
         npm install ts-node -g
+    - name: Run
+      run: |
         npm run tree:parse
         mkdir dist
         npm run merge > dist/run.log
