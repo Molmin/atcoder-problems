@@ -7,9 +7,9 @@ export function solveText(node: Element, nowurl: string) {
                 .replace(/…/g, ' \\cdots ')
                 .replace(/→/g, ' \\to ')
                 .replace(/[～〜]/g, ' \\sim ')
-                .replace(/°/g, '^\\circ ')
+                .replace(/∠/g, ' \\angle ').replace(/°/g, '^\\circ ')
                 .replace(/±/g, ' \\pm ').replace(/−/g, '-')
-                .replace(/×/g, ' \\times ').replace(/⁄/g, '/').replace(/％/g, ' \\% ')
+                .replace(/×/g, ' \\times ').replace(/⁄/g, '/').replace(/÷/g, ' \\div ').replace(/％/g, ' \\% ')
                 .replace(/  /g, ' ').trim()
             if (!/^[a-zA-Z0-9 \,\\\._<>=\(\)\[\]\{\}\^\+\-\*\/\|\:\'!\?%]*?$/.test(content)
                 && ![
@@ -120,6 +120,18 @@ export function solvePart(node: Element, nowurl: string, isIO = false) {
                 else if (tagName === 'img') {
                     const url = new URL(node.getAttribute('src') || '', nowurl)
                     ret += `![${node.getAttribute('alt') || ''}](${url})\n\n`
+                }
+                else if (tagName === 'details') {
+                    ret += '<details>'
+                    for (const child of node.children) {
+                        if (child.tagName.toLowerCase() === 'summary') {
+                            ret += child.outerHTML.trim() + '\n\n'
+                        }
+                        else {
+                            solveNode(child)
+                        }
+                    }
+                    ret += '\n\n</details>'
                 }
                 else {
                     console.log(node.outerHTML)
