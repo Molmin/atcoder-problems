@@ -1,5 +1,7 @@
 import superagent from 'superagent'
 import { JSDOM } from 'jsdom'
+import { writeFileSync } from 'node:fs'
+import solveStatement from './statement'
 
 const UA = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
@@ -72,6 +74,31 @@ export default class AtCoder {
             tasks.push((node.querySelector('a')?.getAttribute('href') as string).split('/')[4])
         }
         return tasks
+    }
+
+    async getProblem(contestId: string, problemId: string) {
+        const { text } = await this.get(`/contests/${contestId}/tasks/${problemId}`)
+        const { window: { document } } = new JSDOM(text)
+        const mainNode = document.querySelector('#main-container > div.row:first-child > .col-sm-12:nth-child(2)') as Element
+        const title = document.querySelector('title')?.textContent?.split(' - ').splice(1).join(' - ') as string
+        console.log(document.querySelector('title')?.textContent)
+        const [timeLimit, memoryLimit] = (mainNode.querySelector('p')?.textContent as string).trim().split(' / ')
+        const time = timeLimit.split('Time Limit: ')[1]
+        const memory = memoryLimit.split('Memory Limit: ')[1]
+        if (!/^[\d\.]+? sec$/.test(time) || !/^[\d\.]+? MB$/.test(memory))
+            throw new Error('Incorrect format of limits found')
+        const langs = document.querySelectorAll('#task-statement > span.lang > span')
+        const statement: Record<string, string> = {}
+        for (const lang of langs) {
+            const langId = lang.getAttribute('class')?.split('-')[1] as string
+            statement[langId] = solveStatement(lang, `${this.endpoint}/contests/${contestId}/tasks/${problemId}`)
+        }
+        return {
+            time: +time.split(' ')[0],
+            memory: +memory.split(' ')[0],
+            title,
+            statement,
+        }
     }
 
     async getSubmissions(contestId: string, problemId: string) {

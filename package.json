@@ -13,11 +13,13 @@
     "dependencies": {
         "fs-extra": "^11.1.1",
         "jsdom": "^22.1.0",
+        "lodash": "^4.17.21",
         "superagent": "^8.1.2",
         "yamljs": "^0.3.0"
     },
     "scripts": {
         "crawl:atcoder": "npx ts-node atcoder/crawl.ts",
+        "crawl:problem": "npx ts-node atcoder/problem.ts",
         "tree:parse": "npx ts-node tree-parser.ts",
         "merge": "npx ts-node merge.ts"
     },
