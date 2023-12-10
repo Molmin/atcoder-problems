@@ -81,10 +81,10 @@ export default class AtCoder {
         const { window: { document } } = new JSDOM(text)
         const mainNode = document.querySelector('#main-container > div.row:first-child > .col-sm-12:nth-child(2)') as Element
         const title = document.querySelector('title')?.textContent?.split(' - ').splice(1).join(' - ') as string
-        console.log(document.querySelector('title')?.textContent)
         const [timeLimit, memoryLimit] = (mainNode.querySelector('p')?.textContent as string).trim().split(' / ')
-        const time = timeLimit.split('Time Limit: ')[1]
-        const memory = memoryLimit.split('Memory Limit: ')[1]
+        let time = timeLimit.split('Time Limit: ')[1]
+        let memory = memoryLimit.split('Memory Limit: ')[1]
+        if (time === '0 msec') time = '0 sec'
         if (!/^[\d\.]+? sec$/.test(time) || !/^[\d\.]+? MB$/.test(memory))
             throw new Error('Incorrect format of limits found')
         const langs = document.querySelectorAll('#task-statement > span.lang > span')
@@ -107,6 +107,7 @@ export default class AtCoder {
             .query({
                 'f.Task': problemId,
                 'f.Status': 'AC',
+                'f.LanguageName': 'C++',
             })
         const { window: { document } } = new JSDOM(text)
         const submissions: string[] = []
@@ -116,6 +117,12 @@ export default class AtCoder {
         return submissions
     }
 
+    async getCode(contestId: string, submissionId: string) {
+        console.log(`Getting submission ${submissionId}`)
+        const { text } = await this.get(`/contests/${contestId}/submissions/${submissionId}`)
+        const { window: { document } } = new JSDOM(text)
+        return document.querySelector('#submission-code')?.textContent as string
+    }
     async getTestdataFilenames(contestId: string, submissionId: string) {
         console.log(`Getting submission ${submissionId}`)
         const { text } = await this.get(`/contests/${contestId}/submissions/${submissionId}`)

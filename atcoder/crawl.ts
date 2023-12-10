@@ -10,7 +10,7 @@ const atcoder = new AtCoder()
 let testdataDict: Record<string, string> = {}
 let contestDict: Record<string, string[]> = {}
 
-ensureDirSync('data')
+ensureDirSync('data/code')
 if (existsSync('data/contest.json'))
     contestDict = JSON.parse(readFileSync('data/contest.json').toString())
 if (existsSync('data/dict.json'))
@@ -50,6 +50,8 @@ async function main() {
             await sleep(100)
             const submissions = await atcoder.getSubmissions(contestId, problemId)
             if (submissions.length === 0) throw new Error(`How difficult the problem ${problemId} is!`)
+            const code = await atcoder.getCode(contestId, submissions[0])
+            writeFileSync(`data/code/${problemId}.cpp`, code)
             const filenames = await atcoder.getTestdataFilenames(contestId, submissions[0])
             testdataDict[problemId] = filenames.sort((x, y) => x < y ? -1 : 1).join(',')
             writeFileSync('data/dict.json', JSON.stringify(testdataDict, null, '  '))
