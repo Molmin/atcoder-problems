@@ -24,7 +24,7 @@ jobs:
     - name: Install
       run: |
         npm install
-        npm install ts-node -g
+        npm install ts-node@10.9.1 -g
     - name: Run
       run: |
         npm run tree:parse
