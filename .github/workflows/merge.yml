@@ -12,6 +12,7 @@ on:
       - 'data/manuals.ts'
       - 'tree-parser.ts'
       - 'merge.ts'
+      - '.github/workflows/merge.yml'
 
 permissions:
   contents: write
