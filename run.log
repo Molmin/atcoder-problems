@@ -1,6 +1,6 @@
 
 > atcoder-problems@1.0.0 merge
-> npx ts-node merge.ts
+> node merge.js
 
 Total 445 contests founded
 Total 3137 problems founded
@@ -198,6 +198,7 @@ Merged contest keyence2019 and keyence2019
 Merged contest keyence2020 and keyence2020
 Merged contest keyence2021 and keyence2021
 Merged contest nikkeiqual_2019 and nikkei2019-2-qual
+Merged contest s8pc_4 and ahc027
 Merged contest sumitrust2019 and sumitrust2019
 Merged contest tokiomarine2020 and tokiomarine2020
 Merged contest Toyota2023SpringFinal and toyota2023spring-final
