@@ -22,7 +22,8 @@
         "crawl:atcoder": "node atcoder/crawl.js",
         "crawl:problem": "node atcoder/problem.js",
         "tree:parse": "node tree-parser.js",
-        "merge": "node merge.js"
+        "merge": "node merge.js",
+        "check": "node atcoder/check.js"
     },
     "author": "Milmon <milmon@qq.com>",
     "license": "GPL-3.0"
