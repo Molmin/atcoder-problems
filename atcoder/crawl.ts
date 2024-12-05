@@ -20,9 +20,12 @@ const ERROR_CONTESTS = [
     'asprocon8', 'asprocon9',
 ]
 
+function JSONToString(json: Record<string, any>) {
+    return JSON.stringify(Object.fromEntries(Object.entries(json).sort((x, y) => x[0] < y[0] ? 1 : -1)), null, '  ')
+}
+
 async function main() {
-    if (await atcoder.login(secret.username, secret.password))
-        console.log('Logged in')
+    if (await atcoder.login(secret.username, secret.password)) console.log('Logged in')
     else return console.log('Failed to log in')
 
     let contests: string[] = []
@@ -50,14 +53,20 @@ async function main() {
             await sleep(100)
             const submissions = await atcoder.getSubmissions(contestId, problemId)
             if (submissions.length === 0) throw new Error(`How difficult the problem ${problemId} is!`)
-            const code = await atcoder.getCode(contestId, submissions[0])
+            let code = await atcoder.getCode(contestId, submissions[0])
+            let i = 0
+            while (i + 1 < submissions.length && code.includes('atcoder/')) {
+                i++
+                let next = await atcoder.getCode(contestId, submissions[i])
+                if (!next.includes('atcoder/') || next.length < code.length) code = next
+            }
             writeFileSync(`data/code/${problemId}.cpp`, code)
             const filenames = await atcoder.getTestdataFilenames(contestId, submissions[0])
             testdataDict[problemId] = filenames.sort((x, y) => x < y ? -1 : 1).join(',')
-            writeFileSync('data/dict.json', JSON.stringify(testdataDict, null, '  '))
+            writeFileSync('data/dict.json', JSONToString(testdataDict))
         }
         contestDict[contestId] = problems
-        writeFileSync('data/contest.json', JSON.stringify(contestDict, null, '  '))
+        writeFileSync('data/contest.json', JSONToString(contestDict))
         done++
     }
 }

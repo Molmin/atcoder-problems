@@ -19,6 +19,7 @@
         "yamljs": "^0.3.0"
     },
     "scripts": {
+        "compile": "tsc",
         "crawl:atcoder": "node atcoder/crawl.js",
         "crawl:problem": "node atcoder/problem.js",
         "tree:parse": "node tree-parser.js",
