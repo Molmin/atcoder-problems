@@ -21,7 +21,7 @@ const ERROR_CONTESTS = [
 ]
 
 function JSONToString(json: Record<string, any>) {
-    return JSON.stringify(Object.fromEntries(Object.entries(json).sort((x, y) => x[0] < y[0] ? 1 : -1)), null, '  ')
+    return JSON.stringify(Object.fromEntries(Object.entries(json).sort((x, y) => x[0] < y[0] ? -1 : 1)), null, '  ')
 }
 
 async function main() {
