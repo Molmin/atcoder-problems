@@ -128,7 +128,8 @@ export default class AtCoder {
         const { text } = await this.get(`/contests/${contestId}/submissions/${submissionId}`)
         const { window: { document } } = new JSDOM(text)
         const table = document.querySelector('div.panel.panel-default > table.table.table-bordered.table-striped.th-center') as Element
-        const filenames = table.querySelector('tbody > tr:last-child > td:nth-child(2)')?.textContent as string
-        return filenames.split(', ')
+        const filenames = Array.from(table.querySelectorAll('tbody > tr'))
+            .flatMap((e) => e.querySelector('td:nth-child(2)')?.textContent?.split(', ') || [])
+        return Array.from(new Set(filenames))
     }
 }
