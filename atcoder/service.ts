@@ -156,6 +156,6 @@ export default class AtCoder {
         const table = document.querySelector('div.panel.panel-default > table.table.table-bordered.table-striped.th-center') as Element
         const filenames = Array.from(table.querySelectorAll('tbody > tr'))
             .flatMap((e) => e.querySelector('td:nth-child(2)')?.textContent?.split(', ') || [])
-        return Array.from(new Set(filenames))
+        return Array.from(new Set(filenames)).filter((x) => x)
     }
 }
