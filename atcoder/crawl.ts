@@ -52,15 +52,17 @@ async function main() {
             if (testdataDict[problemId]) continue
             await sleep(100)
             const submissions = await atcoder.getSubmissions(contestId, problemId)
-            if (submissions.length === 0) throw new Error(`How difficult the problem ${problemId} is!`)
-            let code = await atcoder.getCode(contestId, submissions[0])
-            let i = 0
-            while (i + 1 < submissions.length && code.includes('atcoder/')) {
-                i++
-                let next = await atcoder.getCode(contestId, submissions[i])
-                if (!next.includes('atcoder/') || next.length < code.length) code = next
+            if (!existsSync(`data/code/${problemId}.cpp`)) {
+                if (submissions.length === 0) throw new Error(`How difficult the problem ${problemId} is!`)
+                let code = await atcoder.getCode(contestId, submissions[0])
+                let i = 0
+                while (i + 1 < submissions.length && code.includes('atcoder/')) {
+                    i++
+                    let next = await atcoder.getCode(contestId, submissions[i])
+                    if (!next.includes('atcoder/') || next.length < code.length) code = next
+                }
+                writeFileSync(`data/code/${problemId}.cpp`, code)
             }
-            writeFileSync(`data/code/${problemId}.cpp`, code)
             const filenames = await atcoder.getTestdataFilenames(contestId, submissions[0])
             testdataDict[problemId] = filenames.sort((x, y) => x < y ? -1 : 1).join(',')
             writeFileSync('data/dict.json', JSONToString(testdataDict))

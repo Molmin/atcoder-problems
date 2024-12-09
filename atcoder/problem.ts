@@ -20,10 +20,14 @@ async function main() {
             console.log(`Getting Problem ${problemId}`)
             await sleep(100)
             try {
-                const result = await atcoder.getProblem(contestId, problemId)
+                const result = await atcoder.getProblemHTML(contestId, problemId)
                 ensureDirSync(`data/statement/${problemId}`)
-                for (const [langId, statement] of Object.entries(result.statement))
-                    writeFileSync(`data/statement/${problemId}/${langId}.md`, statement)
+                // for (const [langId, statement] of Object.entries(result.statement))
+                //     writeFileSync(`data/statement/${problemId}/${langId}.md`, statement)
+                writeFileSync(`data/statement/${problemId}/html.json`, JSON.stringify({
+                    html: result.html,
+                    endpoint: result.endpoint,
+                }))
                 writeFileSync(`data/statement/${problemId}/config.json`, JSON.stringify({
                     title: result.title,
                     time: result.time,
