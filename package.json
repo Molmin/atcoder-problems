@@ -20,6 +20,7 @@
     },
     "scripts": {
         "compile": "tsc",
+        "convert": "node atcoder/convert.js",
         "crawl:atcoder": "node atcoder/crawl.js",
         "crawl:problem": "node atcoder/problem.js",
         "tree:parse": "node tree-parser.js",

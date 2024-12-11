@@ -8,4 +8,5 @@ data/result.json
 data/result1.json
 data/done.json
 data/code
+*.ignore.*
 *.js
