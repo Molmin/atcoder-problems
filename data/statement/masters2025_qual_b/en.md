@@ -1,0 +1,1 @@
+This problem is the same as Problem A, differing only in input. See Problem A for details.
