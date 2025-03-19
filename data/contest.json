@@ -2836,6 +2836,132 @@
     "abc383_f",
     "abc383_g"
   ],
+  "abc384": [
+    "abc384_a",
+    "abc384_b",
+    "abc384_c",
+    "abc384_d",
+    "abc384_e",
+    "abc384_f",
+    "abc384_g"
+  ],
+  "abc385": [
+    "abc385_a",
+    "abc385_b",
+    "abc385_c",
+    "abc385_d",
+    "abc385_e",
+    "abc385_f",
+    "abc385_g"
+  ],
+  "abc386": [
+    "abc386_a",
+    "abc386_b",
+    "abc386_c",
+    "abc386_d",
+    "abc386_e",
+    "abc386_f",
+    "abc386_g"
+  ],
+  "abc387": [
+    "abc387_a",
+    "abc387_b",
+    "abc387_c",
+    "abc387_d",
+    "abc387_e",
+    "abc387_f",
+    "abc387_g"
+  ],
+  "abc388": [
+    "abc388_a",
+    "abc388_b",
+    "abc388_c",
+    "abc388_d",
+    "abc388_e",
+    "abc388_f",
+    "abc388_g"
+  ],
+  "abc389": [
+    "abc389_a",
+    "abc389_b",
+    "abc389_c",
+    "abc389_d",
+    "abc389_e",
+    "abc389_f",
+    "abc389_g"
+  ],
+  "abc390": [
+    "abc390_a",
+    "abc390_b",
+    "abc390_c",
+    "abc390_d",
+    "abc390_e",
+    "abc390_f",
+    "abc390_g"
+  ],
+  "abc391": [
+    "abc391_a",
+    "abc391_b",
+    "abc391_c",
+    "abc391_d",
+    "abc391_e",
+    "abc391_f",
+    "abc391_g"
+  ],
+  "abc392": [
+    "abc392_a",
+    "abc392_b",
+    "abc392_c",
+    "abc392_d",
+    "abc392_e",
+    "abc392_f",
+    "abc392_g"
+  ],
+  "abc393": [
+    "abc393_a",
+    "abc393_b",
+    "abc393_c",
+    "abc393_d",
+    "abc393_e",
+    "abc393_f",
+    "abc393_g"
+  ],
+  "abc394": [
+    "abc394_a",
+    "abc394_b",
+    "abc394_c",
+    "abc394_d",
+    "abc394_e",
+    "abc394_f",
+    "abc394_g"
+  ],
+  "abc395": [
+    "abc395_a",
+    "abc395_b",
+    "abc395_c",
+    "abc395_d",
+    "abc395_e",
+    "abc395_f",
+    "abc395_g"
+  ],
+  "abc396": [
+    "abc396_a",
+    "abc396_b",
+    "abc396_c",
+    "abc396_d",
+    "abc396_e",
+    "abc396_f",
+    "abc396_g"
+  ],
+  "abc397": [
+    "abc397_a",
+    "abc397_b",
+    "abc397_c",
+    "abc397_d",
+    "abc397_e",
+    "abc397_f",
+    "abc397_g"
+  ],
   "abl": [
     "abl_a",
     "abl_b",
@@ -3393,6 +3519,13 @@
     "agc069_d",
     "agc069_e"
   ],
+  "agc070": [
+    "agc070_a",
+    "agc070_b",
+    "agc070_c",
+    "agc070_d",
+    "agc070_e"
+  ],
   "ahc001": [
     "ahc001_a"
   ],
@@ -3525,6 +3658,23 @@
   ],
   "ahc039": [
     "ahc039_a"
+  ],
+  "ahc040": [
+    "ahc040_a",
+    "ahc040_b"
+  ],
+  "ahc041": [
+    "ahc041_a"
+  ],
+  "ahc042": [
+    "ahc042_a"
+  ],
+  "ahc043": [
+    "ahc043_a",
+    "ahc043_b"
+  ],
+  "ahc044": [
+    "ahc044_a"
   ],
   "aising2019": [
     "aising2019_a",
@@ -4512,6 +4662,40 @@
     "arc189_d",
     "arc189_e"
   ],
+  "arc190": [
+    "arc190_a",
+    "arc190_b",
+    "arc190_c",
+    "arc190_d",
+    "arc190_e"
+  ],
+  "arc191": [
+    "arc191_a",
+    "arc191_b",
+    "arc191_c",
+    "arc191_d",
+    "arc191_e"
+  ],
+  "arc192": [
+    "arc192_a",
+    "arc192_b",
+    "arc192_c",
+    "arc192_d",
+    "arc192_e"
+  ],
+  "arc193": [
+    "arc193_a",
+    "arc193_b",
+    "arc193_c",
+    "arc193_d"
+  ],
+  "arc194": [
+    "arc194_a",
+    "arc194_b",
+    "arc194_c",
+    "arc194_d",
+    "arc194_e"
+  ],
   "awtf2024": [
     "awtf2024_a",
     "awtf2024_b",
@@ -4925,6 +5109,11 @@
   "masters-qual": [
     "masters_qual_a"
   ],
+  "masters2025-qual": [
+    "masters2025_qual_a",
+    "masters2025_qual_b",
+    "masters2025_qual_c"
+  ],
   "mujin-pc-2017": [
     "mujin_pc_2017_a",
     "mujin_pc_2017_b",
@@ -5059,6 +5248,38 @@
   ],
   "toyota2023summer-final-open": [
     "toyota2023summer_final_a"
+  ],
+  "ttpc2024_1": [
+    "ttpc2024_1_a",
+    "ttpc2024_1_b",
+    "ttpc2024_1_c",
+    "ttpc2024_1_d",
+    "ttpc2024_1_e",
+    "ttpc2024_1_f",
+    "ttpc2024_1_g",
+    "ttpc2024_1_h",
+    "ttpc2024_1_i",
+    "ttpc2024_1_j",
+    "ttpc2024_1_k",
+    "ttpc2024_1_l",
+    "ttpc2024_1_m"
+  ],
+  "ttpc2024_2": [
+    "ttpc2024_1_a",
+    "ttpc2024_1_b",
+    "ttpc2024_1_c",
+    "ttpc2024_2_d",
+    "ttpc2024_1_e",
+    "ttpc2024_2_f",
+    "ttpc2024_2_g",
+    "ttpc2024_2_h",
+    "ttpc2024_1_i",
+    "ttpc2024_1_j",
+    "ttpc2024_2_k",
+    "ttpc2024_1_l",
+    "ttpc2024_2_m",
+    "ttpc2024_2_n",
+    "ttpc2024_2_o"
   ],
   "wtf19": [
     "wtf19_a",
