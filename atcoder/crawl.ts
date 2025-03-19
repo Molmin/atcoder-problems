@@ -25,7 +25,8 @@ function JSONToString(json: Record<string, any>) {
 }
 
 async function main() {
-    if (await atcoder.login(secret.username, secret.password)) console.log('Logged in')
+    // if (await atcoder.login(secret.username, secret.password)) console.log('Logged in')
+    if (await atcoder.loginBySession(secret.session)) console.log('Logged in')
     else return console.log('Failed to log in')
 
     let contests: string[] = []

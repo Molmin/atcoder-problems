@@ -50,6 +50,10 @@ export default class AtCoder {
         catch (e) { }
         return await this.isLoggedIn()
     }
+    loginBySession(session: string) {
+        this.agent.set('Cookie', 'REVEL_SESSION=' + session)
+        return this.isLoggedIn()
+    }
 
     async getContestList(page = 1) {
         console.log(`Getting contest list page ${page}`)
