@@ -2677,10 +2677,12 @@ Merged problem MUJIN2017/D and mujin_pc_2017_d
 Merged problem msolutions2019/A and m_solutions2019_a
 Merged problem msolutions2019/B and m_solutions2019_b
 Merged problem msolutions2019/C and m_solutions2019_c
-Merged problem msolutions2019/D and m_solutions2019_d
+!!!!! Please check problem msolutions2019/D and problem ids arc193_a, m_solutions2019_d manually
 Merged problem pakencamp_2018_day3/A and abc096_c
 Merged problem past202005-open/D and abc340_a
+Merged problem past202012-open/H and abc392_e
 !!!!! Please check problem past202104-open/H and problem ids abc311_f, abc335_f, abc380_d manually
+!!!!! Please check problem past202104-open/J and problem ids abc392_b, abc392_g manually
 Merged problem tenka1_2017/A and tenka1_2017_a
 Merged problem tenka1_2017/B and tenka1_2017_b
 Merged problem tenka1_2017/D and tenka1_2017_d
@@ -2735,6 +2737,7 @@ Merged problem tessoku-book/A35 and abc339_g
 !!!!! Dir jsc2022final/E not merged
 !!!!! Dir jsc2022final/F not merged
 !!!!! Dir jsc2022final/G not merged
+!!!!! Dir msolutions2019/D not merged
 !!!!! Dir pakencamp_2018_day2/A not merged
 !!!!! Dir pakencamp_2018_day2/B not merged
 !!!!! Dir pakencamp_2018_day2/C not merged
@@ -2833,7 +2836,6 @@ Merged problem tessoku-book/A35 and abc339_g
 !!!!! Dir past202012-open/E not merged
 !!!!! Dir past202012-open/F not merged
 !!!!! Dir past202012-open/G not merged
-!!!!! Dir past202012-open/H not merged
 !!!!! Dir past202012-open/I not merged
 !!!!! Dir past202012-open/J not merged
 !!!!! Dir past202012-open/K not merged
